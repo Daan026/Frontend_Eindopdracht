@@ -1,0 +1,127 @@
+.profile-edit {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.profile-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group label {
+    color: #fff;
+    font-weight: bold;
+}
+
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    padding: 10px;
+    border: 2px solid rgba(0, 255, 102, 0.3);
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.form-group input[type="email"]:focus,
+.form-group input[type="password"]:focus {
+    border-color: #00ff66;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.profile-photo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.photo-preview {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #00ff66;
+}
+
+.photo-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.photo-placeholder {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 3px dashed rgba(0, 255, 102, 0.3);
+    color: #00ff66;
+}
+
+.file-input {
+    display: none;
+}
+
+.photo-button {
+    background-color: #00ff66;
+    color: #1a1a1a;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.photo-button:hover {
+    background-color: #33ff88;
+}
+
+.submit-button {
+    background-color: #00ff66;
+    color: #1a1a1a;
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.submit-button:hover:not(:disabled) {
+    background-color: #33ff88;
+}
+
+.submit-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.error-message {
+    color: #ff4444;
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: rgba(255, 68, 68, 0.1);
+}
+
+.success-message {
+    color: #00ff66;
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: rgba(0, 255, 102, 0.1);
+}
