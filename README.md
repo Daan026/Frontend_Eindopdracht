@@ -45,7 +45,7 @@ De applicatie maakt gebruik van:
 ### Stap 1: Repository clonen
 ```bash
 git clone [repository-url]
-cd untitled9
+cd Frontend_Eindopdracht
 ```
  
 ### Stap 2: Dependencies installeren
