@@ -1,0 +1,94 @@
+.header {
+    padding: 20px 40px;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.sign-in-btn {
+    background-color: #00ff66;
+    color: #000;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 16px;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.sign-up-btn {
+    background-color: #00ff66;
+    color: #000;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-recipe-btn {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.stats {
+    display: flex;
+    gap: 40px;
+}
+
+.stat-item h2 {
+    font-size: 2rem;
+    margin-bottom: 4px;
+}
+
+.stat-item p {
+    color: #888;
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .stats {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
