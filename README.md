@@ -39,7 +39,6 @@ De applicatie maakt gebruik van:
 2. **NOVI Educational Backend**
    - Verzorgt gebruikersauthenticatie en accountbeheer
    - Base URL: https://api.datavortex.nl/daanreceptje
-   - Persoonlijke API key : daanreceptje:XKycaPa6jnUYh0EjRXDJ
  
 ## De applicatie draaien
  
