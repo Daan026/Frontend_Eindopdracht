@@ -1,0 +1,52 @@
+export const context = {
+    home: 'Home',
+    random: 'Random Recepten',
+    categories: 'Categorieën',
+    search: 'Zoeken',
+    areas: 'Landen',
+    ingredients: 'Ingrediënten',
+    favorites: 'Favorieten',
+    settings: 'Instellingen',
+
+    findRecipe: 'Vind Jouw Perfecte Recept',
+    discoverRecipes: 'Ontdek duizenden recepten van over de hele wereld',
+    featuredRecipes: 'Uitgelichte Recepten',
+    exploreCategories: 'Verken Categorieën',
+    browseCategories: 'Blader door Categorieën',
+    exploreByRegion: 'Verken per Regio',
+    searchByIngredient: 'Zoek op Ingrediënt',
+    loading: 'Laden...',
+    loadingRecipes: 'Heerlijke recepten laden...',
+
+    viewRecipe: 'Bekijk Recept',
+    addToFavorites: 'Toevoegen aan Favorieten',
+    removeFromFavorites: 'Verwijderen uit Favorieten',
+    remove: 'Verwijderen',
+
+    yourFavorites: 'Jouw Favorieten',
+    noFavorites: 'Je hebt nog geen recepten toegevoegd aan je favorieten.',
+    browseRecipes: 'Blader door Recepten',
+    yourFavoriteRecipes: 'Jouw Favoriete Recepten',
+
+    searchPlaceholder: 'Zoek naar recepten...',
+    noResults: 'Geen resultaten gevonden',
+
+    breakfast: 'Ontbijt',
+    lunch: 'Lunch',
+    dinner: 'Diner',
+    dessert: 'Dessert',
+    snack: 'Snack',
+
+    getNewRecipes: 'Nieuwe Recepten Laden',
+    preparationTime: 'Bereidingstijd',
+    servings: 'Porties',
+    instructions: 'Bereidingswijze',
+    category: 'Categorie',
+    area: 'Keuken',
+    shareRecipe: 'Deel Recept',
+    printRecipe: 'Print Recept',
+    source: 'Bron',
+    minutes: 'minuten',
+    readMore: 'Lees meer',
+    readLess: 'Lees minder'
+};
