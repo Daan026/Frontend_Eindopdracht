@@ -5,7 +5,7 @@ import ScrollToTop from '../../untitled9/src/Components/ScrollToTop/ScrollToTop.
 import './index.css'
 import App from '../App.jsx'
 
-// Zet scroll restoration uit
+
 if ('scrollRestoration' in history) {
     history.scrollRestoration = 'manual'
 }
