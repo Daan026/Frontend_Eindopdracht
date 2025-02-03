@@ -1,0 +1,171 @@
+.navbar {
+    background-color: #1a1a1a;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100vw;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.navbar-brand {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.navbar-logo {
+    height: 50px;
+    width: auto;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+.navbar-text {
+    color: #00ff66;
+    font-size: 1rem;
+    font-weight: bold;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand:hover {
+    color: #33ff88;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-item {
+    color: #00ff66;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.nav-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #00ff66;
+}
+
+.register-button {
+    background-color: #00ff66;
+    color: #1a1a1a;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.register-button:hover {
+    background-color: #33ff88;
+    color: #1a1a1a;
+}
+
+.logout-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    color: white;
+}
+
+.logout-button:hover {
+    color: #00ff66;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 2rem;
+    height: 2rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 10;
+}
+
+.hamburger span {
+    width: 2rem;
+    height: 0.25rem;
+    background: #00ff66;
+    border-radius: 10px;
+    transition: all 0.3s linear;
+    position: relative;
+    transform-origin: 1px;
+}
+
+@media (max-width: 768px) {
+    .navbar-container {
+        padding: 1rem;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100vh;
+        width: 100%;
+        background-color: rgba(51, 51, 51, 0.98);
+        flex-direction: column;
+        padding: 1rem;
+        transition: right 0.3s ease-in-out;
+        backdrop-filter: blur(10px);
+    }
+
+    .nav-menu.active {
+        right: 0;
+    }
+
+    .nav-item {
+        font-size: 1.2rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .register-button {
+        width: auto;
+        margin-top: 1rem;
+    }
+}
+
+
+body {
+    padding-top: 70px;
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
