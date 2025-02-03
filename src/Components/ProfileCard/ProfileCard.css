@@ -1,0 +1,91 @@
+.profile-card {
+    background-color: #333;
+    border-radius: 12px;
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.2s ease;
+}
+
+.profile-card:hover {
+    transform: translateY(-4px);
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.profile-pic {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #444;
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.profile-info h3 {
+    font-size: 1rem;
+    margin-bottom: 4px;
+}
+
+.profile-info p {
+    color: #888;
+    font-size: 0.875rem;
+}
+
+.follow-btn {
+    background-color: #00ff66;
+    color: #000;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.follow-btn:hover {
+    background-color: #00e65c;
+}
+
+.profile-stats {
+    display: flex;
+    justify-content: space-between;
+    color: #888;
+    font-size: 0.875rem;
+    margin-bottom: 16px;
+}
+
+.recipe-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.gallery-item {
+    flex: 1 1 calc(33.333% - 5.334px);
+    min-width: 80px;
+    aspect-ratio: 1;
+    background-color: #444;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+    transition: opacity 0.2s ease;
+}
+
+.gallery-item:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .profile-card {
+        width: 100%;
+    }
+}
