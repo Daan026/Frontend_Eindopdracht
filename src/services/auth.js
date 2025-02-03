@@ -3,11 +3,7 @@ import axios from 'axios';
 const API_URL = import.meta.env.VITE_API_URL;
 const API_KEY = import.meta.env.VITE_API_KEY;
 
-/**
- * Genereert headers voor API requests
- * @param {boolean} includeAuth - Of de Authorization header moet worden toegevoegd
- * @returns {Object} Headers object voor axios requests
- */
+
 function getHeaders(includeAuth = false) {
     const headers = {
         'Authorization': `Basic ${btoa(API_KEY)}`,
@@ -298,5 +294,4 @@ export const authService = {
             throw error;
         }
     }
-    /*  */
 };
