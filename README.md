@@ -18,8 +18,9 @@ De applicatie biedt de volgende kernfunctionaliteiten:
 - Responsive design voor optimaal gebruik op alle apparaten
  
 ## Screenshot
-![Screenshot van de homepagina](public/home.png)
+![Screenshot van de homepagina](/public/home.png)
 *De homepagina toont een overzicht van beschikbare recepten met zoek- en filterfunctionaliteit*
+ 
  
 ## Benodigdheden
  
