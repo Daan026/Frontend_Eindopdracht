@@ -4,6 +4,7 @@ import SearchBar from '../../Components/SearchBar/SearchBar.jsx';
 import Button from '../../Components/Button/Button.jsx';
 import './Home.css';
 import {context} from "../../services/Context.jsx";
+import imgchecker from "../../services/imgchecker.jsx";
 
 const Home = () => {
     const [recipes, setRecipes] = useState([]);
@@ -86,7 +87,7 @@ const Home = () => {
                 <div className="featured-grid">
                     {recipes.map(recipe => (
                         <div key={recipe.id} className="featured-card" onClick={() => navigate(`/recipe/${recipe.id}`)}>
-                            <img src={recipe.image} alt={recipe.title}/>
+                            <imgchecker src={recipe.image} alt={recipe.title}/>
                             <div className="featured-content">
                                 <h3>{recipe.title}</h3>
                                 <span className="category">{recipe.category} • {recipe.area}</span>
